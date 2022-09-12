@@ -1,0 +1,170 @@
+/*Estilos generales*/
+*{
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    text-align: center;
+    background-color: #8bb9ff67;
+    overflow-x: hidden;
+}
+main{
+    flex: 1;
+}
+
+
+a {
+    color: rgba(0, 61, 173, 0.904);
+}
+
+h1,
+h2,
+h3 {
+    color: rgba(0, 61, 173, 0.904);
+    text-shadow: 1px 0 rgb(133, 114, 80), -1px 0 rgb(133, 114, 80), 0 1px rgb(133, 114, 80), 0 -1px rgb(133, 114, 80),
+        1px 1px rgb(133, 114, 80), -1px -1px rgb(133, 114, 80), 1px -1px rgb(133, 114, 80), -1px 1px rgb(133, 114, 80);
+}
+
+
+h2{
+    padding: 10px;
+}
+ul, ol{
+    list-style: none;
+}
+/*Nav*/
+.nav{
+    background-color: rgba(132, 172, 245, 0.808);
+}
+.nav > div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1100px;
+    width: 100%;
+    margin: auto;
+    gap: 10px;
+    padding: 10px 0;
+}
+
+.nav a{
+    text-decoration: none;
+}
+.nav  h1,
+.nav  a{
+    margin: 0;
+    font-size: 20px;
+}
+/*Banner*/
+
+#banner {
+    height: 600px;
+    box-shadow: 5px 10px #8499d1b7;
+}
+
+#banner {
+    position: relative;
+    text-align: center;
+}
+
+.texto-encima {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.centrado {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.centrado>pre {
+    font-size: 30px;
+    color: rgba(0, 61, 173, 0.904);
+    display: inline-flex;
+    background-color: #8499d1b7;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+#banner>img {
+    width: 100%;
+    height: 600px;
+    position: relative;
+
+
+}
+
+
+/* Botón Habitaciones*/
+
+.rooms__button {
+  align-items: center;
+  background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
+  border: 0;
+  border-radius: 8px;
+  box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  display: flex;
+  font-family: Phantomsans, sans-serif;
+  font-size: 20px;
+  justify-content: center;
+  line-height: 1em;
+  max-width: 100%;
+  min-width: 140px;
+  padding: 3px;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.rooms__button:active,
+.rooms__button:hover {
+  outline: 0;
+}
+
+.rooms__button span {
+  background-color: rgb(5, 6, 45);
+  padding: 16px 24px;
+  border-radius: 6px;
+  width: 100%;
+  height: 100%;
+  transition: 300ms;
+}
+
+.rooms__button:hover span {
+  background: none;
+}
+
+
+/*Sobre nosotros*/
+#Sobrenosotros{
+    height: 70%;
+    
+}
+#Sobrenosotros>img{
+    height: 100%;
+}
+/*Contacto*/
+
+/*Footer*/
+footer{
+    background-color: rgba(132, 172, 245, 0.808);
+}
+footer > div{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
